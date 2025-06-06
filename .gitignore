@@ -1,0 +1,49 @@
+# === Maven ===
+target/
+*.log
+*.class
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# === Python venv ===
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+*.env
+
+# === JetBrains / IntelliJ IDEA ===
+.idea/
+
+# === VSCode ===
+.vscode/
+
+# === OS Generated Files ===
+.DS_Store
+Thumbs.db
+
+# === Logs and runtime ===
+*.log
+*.out
+*.pid
+
+# === Secrets ===
+.env
+*.key
+*.pem
+
+# === Misc ===
+*.swp
